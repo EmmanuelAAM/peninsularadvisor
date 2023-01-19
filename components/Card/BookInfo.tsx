@@ -68,8 +68,8 @@ export default function BasicCard(props: BookProps) {
         boxShadow:
           "0 0.5em 1em -0.125em hsl(0deg 0% 4% / 10%), 0 0 0 1px hsl(0deg 0% 4% / 2%)",
         border: "1px solid #e9eaee",
-        display: "flex",
-        flexDirection: "column",
+        display: "column",
+        flexDirection: "flex",
         justifyContent: "space-between",
       }}
     >
@@ -78,7 +78,7 @@ export default function BasicCard(props: BookProps) {
           <Image
             src={`https://picsum.photos/seed/${id}/200/300`}
             alt={title}
-            width={254}
+            width={255}
             height={140}
           />
         </CardMedia>
